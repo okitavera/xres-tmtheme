@@ -4,8 +4,8 @@
 #
 # Created by Yune Haruka
 #
-# usage :
-# 	xres-tmTheme.sh > ~/.config/sublime-text-3/Packages/user/themename.tmTheme	
+# Usage: xres-tmTheme.sh [themeName] > /path/to/color/scheme.tmTheme
+# Example: xres-tmTheme.sh Doge > ~/.config/sublime-text-3/Packages/user/doge.tmTheme
 #
 #
 
@@ -15,17 +15,19 @@ get_colors(){
 }
 get_colors_bg=`grep "*.background *:" $file | awk -F\# '{print $2}'`
 get_colors_fg=`grep "*.foreground *:" $file | awk -F\# '{print $2}'`
+themeName=$1
+themeAuthor=$USER
 cat <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>terminal.sexy</string>
+	<string>${themeAuthor}</string>
 	<key>name</key>
-	<string>terminal.sexy</string>
+	<string>${themeName}</string>
 	<key>semanticClass</key>
-	<string>terminal.sexy</string>
+	<string>${themeName}</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
