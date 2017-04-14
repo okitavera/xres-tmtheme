@@ -34,8 +34,8 @@ place `xres-tmTheme.sh` to your path (/usr/bin/, ~/.local/bin/, etcetera)
 
 ## Usage
 ```sh
-Usage: xres-tmTheme.sh > /path/to/color/scheme.tmTheme
-Example: xres-tmTheme.sh > ~/.config/sublime-text-3/Packages/user/doge.tmTheme
+# Usage: xres-tmTheme.sh [themeName] > /path/to/color/scheme.tmTheme
+# Example: xres-tmTheme.sh Doge > ~/.config/sublime-text-3/Packages/user/doge.tmTheme
 
 ```
 
