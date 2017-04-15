@@ -6,7 +6,7 @@
 
 **NOTE:** `xres-tmTheme` is not perfect and won't work perfectly.
 
-![screenshot](https://github.com/codeharuka/xres-tmtheme/raw/master/screenshot.png)
+![screenshot](https://github.com/yuune/xres-tmtheme/raw/master/screenshot.png)
 
 
 ## Table of Contents
