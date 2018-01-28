@@ -4,7 +4,7 @@
 
 `xres-tmTheme` is a shell script that convert your .Xresources term themes to Sublime colorscheme (.tmTheme).
 
-**NOTE:** `xres-tmTheme` is'nt perfect like another colorschemes.
+**NOTE:** `xres-tmTheme` isn't perfect like another colorschemes.
 
 ![screenshot](https://github.com/yuune/xres-tmtheme/raw/master/screenshot.png)
 
