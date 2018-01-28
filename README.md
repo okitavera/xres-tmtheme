@@ -2,9 +2,9 @@
 
 [![WTFPL licensed](https://img.shields.io/badge/license-WTFPL-blue.svg)](./LICENSE.md)
 
-`xres-tmTheme` is a script that convert your .Xresources term themes to Sublime colorscheme (.tmTheme).
+`xres-tmTheme` is a shell script that convert your .Xresources term themes to Sublime colorscheme (.tmTheme).
 
-**NOTE:** `xres-tmTheme` is not perfect and won't work perfectly.
+**NOTE:** `xres-tmTheme` is'nt perfect like another colorschemes.
 
 ![screenshot](https://github.com/yuune/xres-tmtheme/raw/master/screenshot.png)
 
@@ -40,6 +40,6 @@ place `xres-tmTheme.sh` to your path (/usr/bin/, ~/.local/bin/, etcetera)
 ```
 
 
-## Customization
 
-just open the script, i think you're more geek than me 
+
+
